@@ -1,0 +1,7 @@
+{% extends "layouts/dashboard.html" %}
+{% block scripts %}
+    <script>
+        const activeMenu = document.querySelector('a[href="/dashboard"]');
+        activeMenu.classList.add('active');
+    </script>
+{% endblock %}
